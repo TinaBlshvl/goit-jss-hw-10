@@ -34,7 +34,7 @@ function onInput(e) {
         );
       } else if (quantityValue > 2 && quantityValue < 10) {
         clearInf(containerEl);
-        listEl.innerHTML = createInf(response);
+        listEl.innerHTML = createUl(response);
       } else if (quantityValue === 1) {
         clearInf(listEl);
         containerEl.innerHTML = createInf(response[0]);
